@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <div class="page"  id="inicio">
+      <div class="up">
+        <a href="#inicio">
+          <i class="bi-arrow-up-circle-fill" title="Ir até o início da pagina"></i>
+        </a>
+      </div>
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-2">
+                        <img src="images/logo.png" class="img-fluid">
+                    </div>
+                    <div class="col-12 col-md-10">
+                        <nav class="navbar navbar-expand-lg offset-7">
+                            <div class="container-fluid float-end">
+                              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                              </button>
+                              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                  <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="index.html">Início</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" href="quem-somos.html">Quem Somos</a>
+                                  </li>
+                                  <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                      Serviços
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item" href="#venda-produtos">Venda de Produtos</a></li>
+                                      <li><a class="dropdown-item" href="#reparos">Reparos e Manutenção</a></li>
+                                      <li><a class="dropdown-item" href="#suporte">Suporte Técnico</a></li>
+                                    </ul>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" href="contato.html">Contato</a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="container mb-4 mt-4">
+                <div class="mb-3">
+                    <h2 class="border-bottom text-center">Dê seu Feedback</h2>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="col-md-5 git rounded p-5 ">
+                        <div class="row">
+                            <div class="col mb-3">
+                                <label for="nome" class="form-label">Nome</label>
+                                <input id="nome" type="text" class="form-control" placeholder="Nome">
+                            </div>
+                            <div class="col mb-3">
+                                <label for="sobrenome" class="form-label">Sobrenome</label>
+                                <input id="sobrenome" type="text" class="form-control" placeholder="Sobrenome">
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">E-mail</label>
+                            <input id="email" type="email" class="form-control" placeholder="nome@email.com">
+                        </div>
+                        <div class="mb-3">
+                            <label for="assunto" class="form-label">Assunto</label>
+                            <input id="assunto" type="text" class="form-control" placeholder="Assunto">
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensagem" class="form-label">Mensagem</label>
+                            <textarea name="mensagem" id="mensagem" class="form-control" placeholder="Escreva aqui sua mensagem" rows="3"></textarea>
+                        </div>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Enviar
+                        </button>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Enviado!</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                Avaliaremos seu Feedback!
+                                </div>
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Sair</button>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+          <div class="container">
+              </div>
+            <div class="row">
+              <div class="col-12 col-md-3">
+                <img src="images/logo.png" class="img-fluid">
+              </div>
+              <div class="col-12 col-md-3">
+                <ul class="nav flex-column">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="">Active</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-12 col-md-3">
+                <ul class="nav flex-column">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Active</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-12 col-md-3 icons">
+                <h6>Redes Sociais</h6>
+                <a href="http://Facebook.com.br" target="_blank">
+                  <i class="bi bi-facebook face"></i>
+                </a>
+                <a href="http://Instagram.com.br" target="_blank">
+                  <i class="bi bi-instagram insta"></i>
+                </a>
+                <a href="http://Twitter.com" target="_blank">
+                  <i class="bi bi-twitter twitter"></i>
+                </a>
+                <a href="https://wa.me/55859999999" target="_blank">
+                  <i class="bi bi-whatsapp whatsapp"></i>
+                </a>
+              </div>
+            </div>
+            <div class="row">
+            </div>
+          </div>
+        </footer>
+        <div class="col-12">
+          <div class="card-footer text-center bg-dark text-bg-primary">
+            &copy; 2023, Softweb Tecnologia - Todos os direitos reservados
+          </div>
+        </div>
+    </div>
+    
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    
+</body>
+</html>
